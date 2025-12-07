@@ -21,8 +21,10 @@
 			<Nav href="#about" section="about" isSelected={currentPath === '/' && y > 350 && y < 675}>
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 					<path fill="none" d="M0 0h24v24H0z" />
-					<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10
-						10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+					<path
+						d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10
+						10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+					/>
 				</svg>
 			</Nav>
 
@@ -30,10 +32,12 @@
 			<Nav href="#aw" section="art" isSelected={currentPath === '/' && y > 675 && y < 1000}>
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 					<path fill="none" d="M0 0h24v24H0z" />
-					<path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2
+					<path
+						d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2
 						.89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2
 						19c0 1.11.89 2 2 2h16c1.11 0 2-.89
-						2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+						2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"
+					/>
 				</svg>
 			</Nav>
 
@@ -41,9 +45,11 @@
 			<Nav href="/backrooms" section="backrooms" isSelected={currentPath === '/backrooms'}>
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 					<path fill="none" d="M0 0h24v24H0z" />
-					<path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2
+					<path
+						d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2
 						2H4a2 2 0 01-2-2V6a2 2 0 012-2zm4
-						3h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/>
+						3h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"
+					/>
 				</svg>
 			</Nav>
 		</ul>
@@ -53,7 +59,7 @@
 <svelte:window bind:scrollY={y} />
 
 <style lang="scss">
-	/* ICON NAVBAR → abu/hitam */
+	/* ICON NAVBAR → hitam */
 	nav svg,
 	nav svg * {
 		fill: #000000 !important;
@@ -92,6 +98,7 @@
 			padding: 0;
 			width: 100%;
 			max-width: 600px;
+			list-style: none; /* <== HILANGKAN BULLET ◼︎ */
 		}
 	}
 
@@ -127,44 +134,24 @@
 	}
 
 	/* === MOBILE: NAV DI BAWAH === */
-	/* === MOBILE NAVBAR FIX — SUPER STRONG SELECTORS === */
-@media (max-width: 868px) {
-	nav {
-		top: auto !important;
-		bottom: 0 !important;
-	}
+	@media (max-width: 868px) {
+		nav {
+			top: auto !important;
+			bottom: 0 !important;
+		}
 
-	nav > div {
-		padding: 0.5rem 0;
-		background-color: #ffffff !important; /* PAKSA PUTIH */
-		border-top: 1px solid #00000022;
-		border-radius: 0;
-	}
+		nav > div {
+			padding: 0.5rem 0;
+			background-color: #ffffff !important; /* NAVBAR PUTIH */
+			border-top: 1px solid #00000022;
+			border-radius: 0;
+		}
 
-	/* PAKSA ICON MENJADI HITAM */
-	nav svg,
-	nav svg path,
-	nav svg * {
-		fill: #000000 !important;
-		stroke: #000000 !important;
-		color: #000000 !important;
+		nav ul {
+			gap: 0.5rem;
+			padding: 0.25rem 0.5rem;
+			width: 100%;
+			justify-content: space-around;
+		}
 	}
-
-	/* FIX ukuran icon biar tidak collapse */
-	nav svg {
-		width: 24px !important;
-		height: 24px !important;
-		display: block !important;
-	}
-
-	/* pastikan UL tidak invisible */
-	nav ul {
-		gap: 0.5rem;
-		padding: 0.25rem 0.5rem;
-		width: 100%;
-		justify-content: space-around;
-		z-index: 9999 !important;
-	}
-}
-
 </style>
