@@ -98,7 +98,7 @@
 			padding: 0;
 			width: 100%;
 			max-width: 600px;
-			list-style: none; /* <== HILANGKAN BULLET ◼︎ */
+			list-style: none;
 		}
 	}
 
@@ -153,5 +153,21 @@
 			width: 100%;
 			justify-content: space-around;
 		}
+	}
+
+	/* ====== OVERRIDE LI YANG BIKIN KOTAK HITAM ====== */
+	nav li {
+		background: transparent !important;
+		width: auto !important;
+		height: auto !important;
+		list-style: none !important;
+		padding: 0;
+		margin: 0;
+		border: none !important;
+	}
+
+	nav li::before,
+	nav li::after {
+		content: none !important;
 	}
 </style>
