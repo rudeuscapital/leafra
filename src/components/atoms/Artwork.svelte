@@ -36,9 +36,9 @@
 
 <svelte:head>
 	{#if clicked}
-		<title>echotrame{name}</title>
+		<title>leafrasync{name}</title>
 	{:else}
-		<title>echotrame</title>
+		<title>leafrasync</title>
 	{/if}
 </svelte:head>
 

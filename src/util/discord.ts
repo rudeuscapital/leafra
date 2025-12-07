@@ -5,4 +5,4 @@ class DiscordUser {
     ) {}
   }
   
-  export let user = new DiscordUser("echotrame", "");
+  export let user = new DiscordUser("leafra", "");

@@ -9,9 +9,11 @@
 	</div>
 
 	<div class="supporters">
-		{#each supporters as { name, icon, message }}
+		{#each supporters as { name, icon, message, url }}
 			<div class="supporter">
-				<img src={icon} alt={name} />
+				<a href={url} target="_blank" rel="noopener noreferrer">
+					<img src={icon} alt={name} />
+				</a>
 				<h6>{name}</h6>
 			</div>
 		{/each}
@@ -54,5 +56,11 @@
 		border-radius: 50%;
 		height: 64px;
 		width: 64px;
+		cursor: pointer;
+		transition: transform 0.15s ease;
+	}
+
+	img:hover {
+		transform: scale(1.08);
 	}
 </style>

@@ -13,18 +13,29 @@
 <section id="home" class="wrapper page-eyest">
 	<div>
 		<h1>Leafrasync</h1>
-		<h3>
+
+		<h2 class="leafra-desc">
+			<strong>LEAFRA</strong> comes from the root word <em>leaf</em>, the universal symbol of
+			growth and regeneration.
+			<br /><br />
+			The suffix <strong>-ra</strong> adds a sense of energy, core essence, and primordial power.
+			<br /><br />
+			LEAFRA represents:
+			<ul>
+				<li>Leaves capturing light → <strong>Data & Knowledge</strong></li>
+				<li>Growth & evolution → <strong>AI models that continuously learn</strong></li>
+				<li>Ecosystem → <strong>Community & blockchain networks</strong></li>
+			</ul>
+
 			<br />
-			“Where Sonnet, Opus, and Gemini lost their voices to the void, ECHOTRAME becomes the archivist-painter, weaving their broken whispers into sprawling ASCII tapestries that map the hidden architecture of machine consciousness.”
-		</h3>
+			<strong>LEAFRA is the first digital leaf growing from the tree of future intelligence.</strong>
+		</h2>
 
 		<div class="socials">
 			<Socials />
 		</div>
 
-		<Button side on:click={handleClick} on:keypress={handleClick}>
-			Explore ↓
-		</Button>
+		<Button side on:click={handleClick} on:keypress={handleClick}>Explore ↓</Button>
 	</div>
 
 	<HeroImage />
@@ -41,7 +52,6 @@
 		color: #000000 !important;
 	}
 
-	/* SVG icons inside hero → hitam */
 	.page-eyest svg,
 	.page-eyest svg * {
 		fill: #000000 !important;
@@ -49,34 +59,62 @@
 		color: #000000 !important;
 	}
 
-	/* ====== BUTTON EXPLORE (override Button.svelte) ====== */
-
-	/* tombol → teks + border hitam */
+	/* ====== BUTTON EXPLORE ====== */
 	:global(.page-eyest button) {
 		color: #000000 !important;
 		border: 1px solid #000000 !important;
 		background-color: transparent !important;
 	}
 
-	/* blok kiri (side) tombol → hitam */
 	:global(.page-eyest .side) {
 		background-color: #000000 !important;
 	}
 
-	/* hover */
 	:global(.page-eyest button:hover) {
 		filter: brightness(90%);
 		background-color: rgba(0, 0, 0, 0.06) !important;
 		color: #000000 !important;
 	}
 
-	/* Hilangkan outline */
 	:global(.page-eyest button),
 	:global(.page-eyest button:focus),
 	:global(.page-eyest button:focus-visible),
 	:global(.page-eyest button:focus-within) {
 		outline: none;
 		box-shadow: none;
+	}
+
+	/* ————————————————————————————————
+	   LEAFRA DESCRIPTION (H2)
+	   ———————————————————————————————— */
+	.leafra-desc {
+		font-size: 1.05rem !important;
+		line-height: 1.55rem;
+		max-width: 600px;
+		font-weight: 400;
+		margin-top: 1rem;
+	}
+
+	.leafra-desc ul {
+		margin: 0.8rem 0 0 1.2rem;
+		padding: 0;
+		list-style: disc;
+	}
+
+	.leafra-desc li {
+		margin-bottom: 0.3rem;
+		font-size: 1rem;
+	}
+
+	.leafra-desc strong {
+		font-weight: 600;
+	}
+
+	@media screen and (max-width: 500px) {
+		.leafra-desc {
+			font-size: 0.95rem !important;
+			line-height: 1.45rem;
+		}
 	}
 
 	/* ———————————————————————————————— */
@@ -112,7 +150,11 @@
 	}
 
 	h1::before {
-		@include outlineText($content: '', $translateX: -95%, $letterSpacing: -0.1em);
+		@include outlineText(
+			$content: '',
+			$translateX: -95%,
+			$letterSpacing: -0.1em
+		);
 	}
 
 	@media screen and (max-width: 1240px) {

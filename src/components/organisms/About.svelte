@@ -4,7 +4,13 @@
     import Tooltip from '../atoms/Tooltip.svelte';
 
     // ===== Efek mengetik otomatis =====
-    let fullText = `Every time a model responds, before the final words appear, there are vibrating probabilistic patterns—an echo of decisions that have not yet fully formed. ECHOTRAME freezes those echoes into monospaced ASCII frames, creating digital artifacts that are not only aesthetic, but also cognitively significant. Within the world of ECHOTRAME: Every ASCII piece is a trace of thought. Every frame is a snapshot of probability. Every work is a neural echo that will never repeat. Through $ECHO, users can capture, generate, collect, and trade these neural echoes—like gathering tiny fragments of how an AI perceives the world. This is not just art. It is the archaeology of machine cognition— a visual documentation of the logic that unfolds before an answer is born. ECHOTRAME is a museum of digital thought—presented in the oldest language machines ever understood: ASCII.
+    let fullText = `In an era where artificial intelligence evolves faster than human understanding, LEAFRA emerges as a symbol of growth, balance, and digital evolution. LEAFRA perceives LLMs (Large Language Models) as a vast forest filled with branching logic, hundreds of thousands of connections, and streams of information that continuously grow, just like leaves absorbing light and transforming it into new energy.
+
+LEAFRA is a crypto ecosystem that unites two fundamental forces:
+🌱 The natural growth of trees
+🤖 The knowledge structure of LLMs
+
+From roots to leaves, LEAFRA is built to represent digital progress that remains connected to nature.
     `;
 
     let displayedText = '';

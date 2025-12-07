@@ -7,7 +7,7 @@
 <div class="socials-container">
 
 	<!-- Twitter (PUTIH) -->
-	<Social tip="Twitter" link="https://x.com/echotrame">
+	<Social tip="Twitter" link="https://x.com/leafrasync">
 		<svg
 			width="22"
 			height="22"
@@ -21,7 +21,7 @@
 	</Social>
 
 	<!-- DexScreener (PUTIH) -->
-	<Social tip="Pumpfun" link="https://pump.fun/coin/9DURgYLywnfcNTiYNayYa6JT5KpmRRRt287auiMipump">
+	<Social tip="Pumpfun" link="">
 		<img src="/dexscreener.svg" alt="Pumpfun" class="icon icon-img" />
 	</Social>
 

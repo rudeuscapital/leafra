@@ -127,24 +127,44 @@
 	}
 
 	/* === MOBILE: NAV DI BAWAH === */
-	@media (max-width: 868px) {
-		nav {
-			top: auto !important;
-			bottom: 0 !important;
-		}
-
-		nav > div {
-			padding: 0.3rem 0;
-			background-color: var(--elevation-one);
-			border-top: 1px solid var(--accent-opacity);
-			border-radius: 0;
-		}
-
-		nav ul {
-			gap: 0.5rem;
-			padding: 0.25rem 0.5rem;
-			width: 100%;
-			justify-content: space-around;
-		}
+	/* === MOBILE NAVBAR FIX — SUPER STRONG SELECTORS === */
+@media (max-width: 868px) {
+	nav {
+		top: auto !important;
+		bottom: 0 !important;
 	}
+
+	nav > div {
+		padding: 0.5rem 0;
+		background-color: #ffffff !important; /* PAKSA PUTIH */
+		border-top: 1px solid #00000022;
+		border-radius: 0;
+	}
+
+	/* PAKSA ICON MENJADI HITAM */
+	nav svg,
+	nav svg path,
+	nav svg * {
+		fill: #000000 !important;
+		stroke: #000000 !important;
+		color: #000000 !important;
+	}
+
+	/* FIX ukuran icon biar tidak collapse */
+	nav svg {
+		width: 24px !important;
+		height: 24px !important;
+		display: block !important;
+	}
+
+	/* pastikan UL tidak invisible */
+	nav ul {
+		gap: 0.5rem;
+		padding: 0.25rem 0.5rem;
+		width: 100%;
+		justify-content: space-around;
+		z-index: 9999 !important;
+	}
+}
+
 </style>

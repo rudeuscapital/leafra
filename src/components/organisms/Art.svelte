@@ -15,10 +15,10 @@
 <style lang="scss">
 
 	/* ———————————————————————
-	   FIX: “art” TITLE → PUTIH
+	   TITLE "art" → HITAM
 	   ——————————————————————— */
-	span {
-		color: #ffffff !important;
+	h2 span {
+		color: #000000 !important;
 	}
 
 	h2 {
@@ -27,13 +27,13 @@
 	}
 
 	div {
-	display: flex;
-	justify-content: center; /* CENTER DEFAULT (DESKTOP) */
-	margin-top: 0;
+		display: flex;
+		justify-content: center; /* Desktop center */
+		margin-top: 0;
 
-	@media (max-width: 868px) {
-		justify-content: flex-start; /* MOBILE pindah ke kiri */
-		margin-bottom: 0.3rem;
+		@media (max-width: 868px) {
+			justify-content: flex-start; /* Mobile kiri */
+			margin-bottom: 0.3rem;
+		}
 	}
-}
 </style>

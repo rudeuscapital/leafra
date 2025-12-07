@@ -1,23 +1,26 @@
 [
     {
-        "name": "GNON Labs | △",
-        "icon": "/supporters/gnon.webp",
-        "message":
-            "I wish I could do more, but I appreciate your work and creativity. You'll achieve great highs, brother. Big hugs from your Brazilian friend."
+        "name": "Slade",
+        "icon": "/supporters/slade.webp",
+        "url": "https://x.com/MegatonNemeton",
+        "message": "I wish I could do more, but I appreciate your work and creativity. You'll achieve great highs, brother. Big hugs from your Brazilian friend."
     },
     {
         "name": "ᄂIMIПΛᄂbardo",
         "icon": "/supporters/andy.webp",
+        "url": "https://x.com/liminal_bardo",
         "message": "hi"
     },
     {
         "name": "j⧉nus",
         "icon": "/supporters/genius.webp",
+        "url": "https://x.com/repligate",
         "message": "3 Covfefe"
     },
     {
         "name": "Upward Spiral",
-        "icon": "/supporters/truth.webp",
+       	"icon": "/supporters/truth.webp",
+        "url": "https://x.com/Upward_Earth",
         "message": "i forgot ☠️"
     }
 ]
