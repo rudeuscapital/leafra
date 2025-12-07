@@ -21,7 +21,7 @@
 	</Social>
 
 	<!-- DexScreener (PUTIH) -->
-	<Social tip="Pumpfun" link="">
+	<Social tip="Pumpfun" link="https://pump.fun/coin/9Z3CrdQxLKdMtSefEAZRWfFoTDfqMPTfDjEE1ierpump">
 		<img src="/dexscreener.svg" alt="Pumpfun" class="icon icon-img" />
 	</Social>
 
