@@ -24,7 +24,6 @@
         "name": "lost",
         "tall": true,
         "position": "right"
-        
     },
     {
         "name": "painted_red",
@@ -50,6 +49,24 @@
     },
     {
         "name": "drowning"
+    },
+
+    {
+        "name": "echoes"
+    },
+    {
+        "name": "fractured",
+        "tall": true
+    },
+    {
+        "name": "solitude"
+    },
+    {
+        "name": "glimmer",
+        "tall": true
+    },
+    {
+        "name": "afterglow",
+        "tall": true
     }
-    
 ]

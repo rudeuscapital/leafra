@@ -34,7 +34,8 @@
 				</svg>
 			</Nav>
 
-			<Nav href="/backrooms" section="backrooms" isSelected={currentPath === '/backrooms'}>
+			<!-- 🔥 INI BAGIAN YANG DIGANTI -->
+			<Nav href="/leafra-terminal" section="leafra-terminal" isSelected={currentPath === '/leafra-terminal'}>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 					<path fill="none" d="M0 0h24v24H0z" />
 					<path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2
@@ -42,6 +43,7 @@
 						3h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/>
 				</svg>
 			</Nav>
+			<!-- 🔥 END -->
 		</ul>
 	</div>
 </nav>
@@ -90,7 +92,7 @@ nav {
 }
 
 .scrolled {
-	background: rgba(0,0,0,0.15); /* sedikit transparan */
+	background: rgba(0,0,0,0.15);
 	backdrop-filter: blur(8px);
 }
 
@@ -106,7 +108,6 @@ nav {
 		padding: 0.75rem 1.25rem;
 	}
 
-	/* warna desktop putih */
 	nav button {
 		color: white !important;
 	}
@@ -121,11 +122,10 @@ nav {
 
 	.nav-wrapper {
 		padding: 0.5rem 0;
-		background: rgba(255,255,255,0.1); /* TIPIS saja */
+		background: rgba(255,255,255,0.1);
 		backdrop-filter: blur(6px);
 	}
 
-	/* warna mobile hitam agar terlihat */
 	nav button {
 		color: #000 !important;
 	}
