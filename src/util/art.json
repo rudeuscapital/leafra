@@ -68,5 +68,20 @@
     {
         "name": "afterglow",
         "tall": true
+    },
+       {
+        "name": "frac",
+        "tall": true
+    },
+    {
+        "name": "soli"
+    },
+    {
+        "name": "glim",
+        "tall": true
+    },
+    {
+        "name": "after",
+        "tall": true
     }
 ]
