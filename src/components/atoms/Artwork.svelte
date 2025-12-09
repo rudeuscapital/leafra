@@ -55,7 +55,7 @@
 	>
 		<h3>{name}</h3>
 		<img src="art/{name}.webp" alt={name} />
-		<h6>{subtitle}</h6>
+		<h6 class="subtitle">{subtitle}</h6>
 	</div>
 {/if}
 
@@ -121,20 +121,36 @@
 		}
 	}
 
-	h3,
-	h6 {
-		margin: 1vh;
-	}
-
-	h6 {
-		font-size: 2vh;
-		margin-top: 2vh;
-	}
-
 	h3 {
+		margin: 1vh;
 		font-size: 3.5vh;
 		font-weight: 500;
 		color: var(--text-primary);
+	}
+
+	.subtitle {
+		margin: 1vh;
+		margin-top: 2vh;
+		max-width: 80vw;
+		font-size: 1.4vh;
+		line-height: 1.4;
+		font-weight: 300;
+		text-align: center;
+
+		color: rgba(255, 255, 255, 0.9);
+		background: rgba(0, 0, 0, 0.35);
+		padding: 1.2vh 2vh;
+		border-radius: 8px;
+
+		backdrop-filter: blur(4px);
+		-webkit-backdrop-filter: blur(4px);
+
+		/* kalau mau dibatasi jumlah baris, aktifkan ini:
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		*/
 	}
 
 	.tall {
