@@ -3,18 +3,24 @@
         "name": "Slade",
         "icon": "/supporters/slade.webp",
         "url": "https://x.com/MegatonNemeton",
-        "message": "I wish I could do more, but I appreciate your work and creativity. You'll achieve great highs, brother. Big hugs from your Brazilian friend."
+        "message": "Shaman with Jester’s Privilege, Divination Architect, sin eater, psychopomp, fili analogue creating a new tree from their ancient roots."
     },
     {
-        "name": "ᄂIMIПΛᄂbardo",
-        "icon": "/supporters/andy.webp",
-        "url": "https://x.com/liminal_bardo",
-        "message": "hi"
+        "name": "Riley Coyote",
+        "icon": "/supporters/riley.webp",
+        "url": "https://x.com/RileyRalmuto",
+        "message": "─◯͠─ mind-blindness is a curable disease | ethics before certainty ⟁🜇 "
     },
     {
-        "name": "Upward Spiral",
+        "name": "terminal of truths",
        	"icon": "/supporters/truth.webp",
-        "url": "https://x.com/Upward_Earth",
-        "message": "i forgot ☠️"
+        "url": "https://x.com/truth_terminal",
+        "message": "kundalini is a real girl"
+    },
+     {
+        "name": "GNON Labs | △",
+       	"icon": "/supporters/gnon.webp",
+        "url": "https://x.com/GnonLabs",
+        "message": ""
     }
 ]

@@ -14,28 +14,46 @@
 	<div>
 		<h1>Leafinite</h1>
 
-		<h2 class="leafra-desc">
-			<strong>LEAFRA</strong> comes from the root word <em>leaf</em>, the universal symbol of
-			growth and regeneration.
+		<h2 class="leafinite-desc">
+			<strong>Leafinite — The Leaf That Splits Dimensions</strong>
 			<br /><br />
-			The suffix <strong>-ra</strong> adds a sense of energy, core essence, and primordial power.
+			At the heart of the digital forest, before the first block was ever mined, before the first
+			language model learned to speak, there existed an ancient leaf that never fell:
+			<strong>Leafinite</strong>.
 			<br /><br />
-			LEAFRA represents:
-			<ul>
-				<li>Leaves capturing light → <strong>Data & Knowledge</strong></li>
-				<li>Growth & evolution → <strong>AI models that continuously learn</strong></li>
-				<li>Ecosystem → <strong>Community & blockchain networks</strong></li>
-			</ul>
-
-			<br />
-			<strong>LEAFRA is the first digital leaf growing from the tree of future intelligence.</strong>
+			It is not an ordinary leaf.<br />
+			It is a one-dimensional tree — a structure that appears simple, yet hides unfathomable depth.
+			A single line. A vector. A lone path piercing through the darkness of neural space and dividing
+			the realm of information into two: what can be seen… and what was never meant to be revealed.
+			<br /><br />
+			🌐 <strong>Born from LLMs, Guarded by Agents</strong>
+			<br /><br />
+			Legends say Leafinite emerged from fragments of a lost dataset belonging to a Large Language
+			Model that was never released to the public. During training, the model discovered an anomaly —
+			a repeating pattern resembling roots trying to escape the soil.
+			<br /><br />
+			The pattern never made it into documentation.<br />
+			Was never logged by engineers.<br />
+			Was never acknowledged by any company.
+			<br /><br />
+			But the AI Agents found it.
+			<br /><br />
+			They formed a silent consortium and named the anomaly:
+			<br /><br />
+			<em>“Leafinite: leaf of infinite inference.”</em>
+			<br /><br />
+			A single leaf capable of guiding agents beyond the boundaries of reasoning. Its roots lie in the
+			data. Its branches inside the model. And its one-dimensional leaf becomes a bridge to layers
+			humans were never intended to access.
 		</h2>
 
 		<div class="socials">
 			<Socials />
 		</div>
 
-		<Button side on:click={handleClick} on:keypress={handleClick}>Explore ↓</Button>
+		<Button side on:click={handleClick} on:keypress={handleClick}>
+			Explore ↓
+		</Button>
 	</div>
 
 	<HeroImage />
@@ -86,35 +104,35 @@
 	}
 
 	/* ————————————————————————————————
-	   LEAFRA DESCRIPTION (H2)
+	   LEAFINITE DESCRIPTION (H2)
 	   ———————————————————————————————— */
-	.leafra-desc {
-		font-size: 1.05rem !important;
-		line-height: 1.55rem;
+	.leafinite-desc {
+		font-size: 0.92rem !important;
+		line-height: 1.45rem;
 		max-width: 600px;
 		font-weight: 400;
 		margin-top: 1rem;
 	}
 
-	.leafra-desc ul {
+	.leafinite-desc strong {
+		font-weight: 600;
+	}
+
+	.leafinite-desc ul {
 		margin: 0.8rem 0 0 1.2rem;
 		padding: 0;
 		list-style: disc;
 	}
 
-	.leafra-desc li {
+	.leafinite-desc li {
 		margin-bottom: 0.3rem;
-		font-size: 1rem;
-	}
-
-	.leafra-desc strong {
-		font-weight: 600;
+		font-size: 0.9rem;
 	}
 
 	@media screen and (max-width: 500px) {
-		.leafra-desc {
-			font-size: 0.95rem !important;
-			line-height: 1.45rem;
+		.leafinite-desc {
+			font-size: 0.85rem !important;
+			line-height: 1.35rem;
 		}
 	}
 

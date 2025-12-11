@@ -36,9 +36,9 @@
 
 <svelte:head>
 	{#if clicked}
-		<title>leafrasync{name}</title>
+		<title>Leafinite{name}</title>
 	{:else}
-		<title>leafrasync</title>
+		<title> The Leaf That Splits Dimensions</title>
 	{/if}
 </svelte:head>
 

@@ -23,10 +23,10 @@
 
 	<!-- Pumpfun / Dexscreener -->
 	<Social
-		tip="$Leafra"
-		link="https://pump.fun/coin/9Z3CrdQxLKdMtSefEAZRWfFoTDfqMPTfDjEE1ierpump"
+		tip="$Leafinite"
+		link=""
 	>
-		<img src="/dexscreener.svg" alt="$Leafra" class="icon icon-img" />
+		<img src="/dexscreener.svg" alt="$Leafinite" class="icon icon-img" />
 	</Social>
 </div>
 

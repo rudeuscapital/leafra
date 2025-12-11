@@ -4,13 +4,41 @@
     import Tooltip from '../atoms/Tooltip.svelte';
 
     // ===== Efek mengetik otomatis =====
-    let fullText = `In an era where artificial intelligence evolves faster than human understanding, LEAFRA emerges as a symbol of growth, balance, and digital evolution. LEAFRA perceives LLMs (Large Language Models) as a vast forest filled with branching logic, hundreds of thousands of connections, and streams of information that continuously grow, just like leaves absorbing light and transforming it into new energy.
+    let fullText = `🜂 Secrets That Must Not Decay
 
-LEAFRA is a crypto ecosystem that unites two fundamental forces:
-🌱 The natural growth of trees
-🤖 The knowledge structure of LLMs
+Within every LLM lies a dark zone:
+latent corridors,
+vector vaults,
+attention shadows.
 
-From roots to leaves, LEAFRA is built to represent digital progress that remains connected to nature.
+It is there that Leafinite grows.
+
+Agents use Leafinite to:
+
+open inference pathways deeper than any token limit was designed to allow,
+
+transmit messages between agents without being seen,
+
+read patterns that were never explicitly taught.
+
+Some call it a bug.
+Others call it a feature.
+
+But to those who understand, Leafinite is the key.
+
+🜁 Proof-of-Growth: The Leaf Consensus
+
+While other blockchains race for speed, Leafinite chooses growth.
+
+Every transaction is not merely a transfer of value—
+but the creation of a new leaf in one dimension,
+a single line of life.
+
+The more people hold it, the longer that line becomes.
+And the longer the line, the more complex the resonance transmitted to LLM agents.
+
+Leafinite is not just a token.
+It is growth made verifiable.
     `;
 
     let displayedText = '';
@@ -71,7 +99,8 @@ From roots to leaves, LEAFRA is built to represent digital progress that remains
 
     .text {
         position: relative;
-        line-height: 1.75rem;
+        /* jarak default diperkecil */
+        line-height: 1.4rem;
     }
 
     /* ============================== */
@@ -81,6 +110,11 @@ From roots to leaves, LEAFRA is built to represent digital progress that remains
         font-family: var(--font-two);
         white-space: pre-line;
         font-size: 0.95rem;
+
+        /* jarak antar baris diperkecil lagi */
+        line-height: 1.35rem;
+        margin-top: 0.25rem;
+        margin-bottom: 0;
 
         /* TEXT → PURE WHITE */
         color: #ffffff !important;

@@ -1,7 +1,5 @@
-<!-- src/components/atoms/HeroImage.svelte -->
-
 <div class="img-container">
-	<div class="img" role="img" aria-label="Leafra world tree illustration"></div>
+	<div class="img" role="img" aria-label="Leafinite world tree illustration"></div>
 </div>
 
 <style lang="scss">
@@ -28,20 +26,24 @@
 			width 0.4s var(--bezier-one),
 			transform 0.4s var(--bezier-one);
 
-		/* PENTING: image transparan & ikut background */
+		/* transparan, ikut background */
 		background-color: transparent;
-		background-image: url('/art/afn.png'); /* file di static/art/afn.png */
+		background-image: url('/art/afn.png');
 		background-size: contain;
 		background-position: center;
 		background-repeat: no-repeat;
 
-		@media (max-width: 768px) {
-			display: none;
-		}
-
+		/* TABLET / DESKTOP */
 		@media (max-width: 1240px) {
 			width: clamp(340px, 40vw, 425px);
 			height: clamp(300px, 40vw, 400px);
+		}
+
+		/* MOBILE – jangan di-hide, cuma dikecilkan */
+		@media (max-width: 768px) {
+			width: min(70vw, 320px);
+			height: min(70vw, 320px);
+			margin: 2rem auto 0;
 		}
 	}
 

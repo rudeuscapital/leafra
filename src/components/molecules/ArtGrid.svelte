@@ -35,10 +35,10 @@
 		}
 
 		&:before {
-			@include outlineText($content: 'leafra', $translateX: -40%, $translateY: -210%);
+			@include outlineText($content: 'leafinite', $translateX: -40%, $translateY: -210%);
 
 			@media screen and (max-width: 868px) {
-				@include outlineText($content: 'leafra', $translateX: -25%, $translateY: -95%);
+				@include outlineText($content: 'leafinite', $translateX: -25%, $translateY: -95%);
 			}
 		}
 	}

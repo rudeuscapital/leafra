@@ -19,31 +19,35 @@
 			<Nav href="#about" section="about" isSelected={currentPath === '/' && y > 350 && y < 675}>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 					<path fill="none" d="M0 0h24v24H0z" />
-					<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10
-						10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+					<path
+						d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10
+						10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+					/>
 				</svg>
 			</Nav>
 
 			<Nav href="#aw" section="art" isSelected={currentPath === '/' && y > 675 && y < 1000}>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 					<path fill="none" d="M0 0h24v24H0z" />
-					<path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2
+					<path
+						d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2
 						.89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2
 						19c0 1.11.89 2 2 2h16c1.11 0 2-.89
-						2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+						2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"
+					/>
 				</svg>
 			</Nav>
 
-			<!-- 🔥 INI BAGIAN YANG DIGANTI -->
 			<Nav href="/leafra-terminal" section="leafra-terminal" isSelected={currentPath === '/leafra-terminal'}>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 					<path fill="none" d="M0 0h24v24H0z" />
-					<path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2
+					<path
+						d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2
 						2H4a2 2 0 01-2-2V6a2 2 0 012-2zm4
-						3h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/>
+						3h8v2H8V7zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"
+					/>
 				</svg>
 			</Nav>
-			<!-- 🔥 END -->
 		</ul>
 	</div>
 </nav>
@@ -91,9 +95,10 @@ nav {
 	}
 }
 
+/* SCROLLED STATE – TANPA BLUR & TANPA GLOW */
 .scrolled {
-	background: rgba(0,0,0,0.15);
-	backdrop-filter: blur(8px);
+	background: #000000;          /* boleh diganti transparent kalau mau */
+	backdrop-filter: none;
 }
 
 /* DESKTOP */
@@ -106,10 +111,11 @@ nav {
 		width: auto;
 		border-radius: 12px;
 		padding: 0.75rem 1.25rem;
+		background: #000000;      /* kotak solid tanpa blur */
 	}
 
 	nav button {
-		color: white !important;
+		color: #ffffff !important;
 	}
 }
 
@@ -122,12 +128,12 @@ nav {
 
 	.nav-wrapper {
 		padding: 0.5rem 0;
-		background: rgba(255,255,255,0.1);
-		backdrop-filter: blur(6px);
+		background: #000000;      /* strip hitam flat */
+		backdrop-filter: none;
 	}
 
 	nav button {
-		color: #000 !important;
+		color: #ffffff !important;
 	}
 }
 </style>
