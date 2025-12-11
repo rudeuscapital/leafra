@@ -22,7 +22,7 @@
 	</Social>
 
 	<!-- Telegram -->
-	<Social tip="Telegram" link="https://t.me/leafinite">
+	<Social tip="Telegram" link="https://t.me/leafinite/9">
 		<svg
 			width="22"
 			height="22"
