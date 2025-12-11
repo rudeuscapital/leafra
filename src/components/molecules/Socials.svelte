@@ -6,7 +6,7 @@
 
 <div class="socials-container">
 	<!-- Twitter -->
-	<Social tip="Twitter" link="https://x.com/leafrasync">
+	<Social tip="Twitter" link="https://x.com/Leafinite_">
 		<svg
 			width="22"
 			height="22"
@@ -21,11 +21,22 @@
 		</svg>
 	</Social>
 
+	<!-- Telegram -->
+	<Social tip="Telegram" link="https://t.me/leafinite">
+		<svg
+			width="22"
+			height="22"
+			viewBox="0 0 24 24"
+			fill="currentColor"
+			xmlns="http://www.w3.org/2000/svg"
+			class="icon"
+		>
+			<path d="M21.5 3.5L2.5 10.8c-.9.3-.9 1.5 0 1.8l4.8 1.6 1.9 5.6c.3.9 1.5.9 1.9 0l2.9-4.6 4.9 3.6c.8.6 1.9.1 2.1-.9l2.5-14c.2-.9-.7-1.6-1.6-1.3z"/>
+		</svg>
+	</Social>
+
 	<!-- Pumpfun / Dexscreener -->
-	<Social
-		tip="$Leafinite"
-		link=""
-	>
+	<Social tip="$Leafinite" link="">
 		<img src="/dexscreener.svg" alt="$Leafinite" class="icon icon-img" />
 	</Social>
 </div>
@@ -38,19 +49,18 @@
 		align-items: center;
 	}
 
-	/* SVG ICONS → SESUAI BACKGROUND HITAM (PUTIH) */
+	/* SVG ICON → PUTIH */
 	.icon {
 		width: 22px;
 		height: 22px;
-		color: #ffffff !important; /* warna icon */
-		fill: #ffffff !important;  /* path svg */
-		opacity: 1;
+		color: #ffffff !important;
+		fill: #ffffff !important;
 		transition: transform 0.2s ease;
 	}
 
-	/* IMG ICONS (Dexscreener / Pumpfun) → DIBUAT PUTIH */
+	/* IMAGE ICON (Dexscreener/Pumpfun) → JADI PUTIH */
 	.icon-img {
-		filter: invert(1) brightness(1.6); /* logo hitam → putih */
+		filter: invert(1) brightness(1.6);
 	}
 
 	.icon:hover,
