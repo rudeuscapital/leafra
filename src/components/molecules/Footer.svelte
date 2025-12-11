@@ -8,7 +8,7 @@
 <footer class="wrapper">
 	<Socials />
 	<h6>
-	develops by @slade
+	develops by Riley Coyote
 		<Tooltip tip="how to delete">
 			<a href="" target="_blank" rel="noreferrer"></a>
 		</Tooltip>
