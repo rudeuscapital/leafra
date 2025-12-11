@@ -55,7 +55,6 @@ From roots to leaves, LEAFRA is built to represent digital progress that remains
         <p class="typing">
             {displayedText}
         </p>
-
     </div>
 </section>
 
@@ -76,18 +75,18 @@ From roots to leaves, LEAFRA is built to represent digital progress that remains
     }
 
     /* ============================== */
-    /*   TYPING TEXT — PURE BLACK     */
+    /*   TYPING TEXT — FULL WHITE     */
     /* ============================== */
     .typing {
         font-family: var(--font-two);
         white-space: pre-line;
         font-size: 0.95rem;
 
-        /* TEXT → PURE BLACK */
-        color: #000000 !important;
+        /* TEXT → PURE WHITE */
+        color: #ffffff !important;
 
-        /* CARET → PURE BLACK */
-        border-right: 2px solid #000000;
+        /* CARET → PURE WHITE */
+        border-right: 2px solid #ffffff;
 
         animation: blink 0.75s step-end infinite;
     }
@@ -97,7 +96,7 @@ From roots to leaves, LEAFRA is built to represent digital progress that remains
             border-color: transparent;
         }
         50% {
-            border-color: #000000;
+            border-color: #ffffff;
         }
     }
 

@@ -1,5 +1,5 @@
 /* ===========================
-   Global Styles — Light Override
+   Global Styles — Dark Theme
    =========================== */
 @import url("theme.dark.scss");
 
@@ -28,7 +28,8 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.4;
-	background-color: var(--bg-color);
+	background-color: var(--bg-color);   /* <– hitam dari :root */
+	color: var(--text-primary);          /* <– teks default putih */
 	overflow-x: hidden;
 }
 
@@ -50,23 +51,25 @@ body.stop-transitions * {
 	transition: none !important;
 }
 
-/* Root Variables (light theme override) */
+/* Root Variables (DARK THEME) */
 :root {
 	--font-one: "Space Grotesk", sans-serif;
 	--font-two: "JetBrains Mono", monospace;
 	--bezier-one: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
-	/* ==== LIGHT COLORS ==== */
-	--bg-color: #ffffff;
-	--text-primary: #050505;
-	--text-secondary: #333333;
+	color-scheme: dark;
+
+	/* ==== DARK COLORS ==== */
+	--bg-color: #000000;          /* background utama */
+	--text-primary: #ffffff;      /* teks utama putih */
+	--text-secondary: #e5e5e5;    /* teks sekunder abu muda */
 
 	/* accent untuk selection / detail kecil */
-	--accent-opacity: rgba(0, 0, 0, 0.08);
+	--accent-opacity: rgba(255, 255, 255, 0.12);
 
 	/* elevation (card / scrollbar) */
-	--elevation-one: #e5e5e5;
-	--elevation-three: #d3d3d3;
+	--elevation-one: #2a2a2a;
+	--elevation-three: #3a3a3a;
 }
 
 ::selection {

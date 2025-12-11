@@ -12,7 +12,7 @@
 
 <section id="home" class="wrapper page-eyest">
 	<div>
-		<h1>Leafrasync</h1>
+		<h1>Leafinite</h1>
 
 		<h2 class="leafra-desc">
 			<strong>LEAFRA</strong> comes from the root word <em>leaf</em>, the universal symbol of
@@ -45,35 +45,36 @@
 	@import '../../styles/mixins.scss';
 
 	/* ————————————————————————————————
-	   FORCE TEXT BLACK IN THIS HERO
+	   FORCE TEXT WHITE IN THIS HERO
 	   ———————————————————————————————— */
 	.page-eyest,
 	.page-eyest * {
-		color: #000000 !important;
+		color: #ffffff !important;
 	}
 
 	.page-eyest svg,
 	.page-eyest svg * {
-		fill: #000000 !important;
-		stroke: #000000 !important;
-		color: #000000 !important;
+		fill: #ffffff !important;
+		stroke: #ffffff !important;
+		color: #ffffff !important;
 	}
 
 	/* ====== BUTTON EXPLORE ====== */
 	:global(.page-eyest button) {
-		color: #000000 !important;
-		border: 1px solid #000000 !important;
+		color: #ffffff !important;
+		border: 1px solid #ffffff !important;
 		background-color: transparent !important;
 	}
 
 	:global(.page-eyest .side) {
-		background-color: #000000 !important;
+		background-color: #ffffff !important;
+		color: #000000 !important;
 	}
 
 	:global(.page-eyest button:hover) {
 		filter: brightness(90%);
-		background-color: rgba(0, 0, 0, 0.06) !important;
-		color: #000000 !important;
+		background-color: rgba(255, 255, 255, 0.06) !important;
+		color: #ffffff !important;
 	}
 
 	:global(.page-eyest button),
