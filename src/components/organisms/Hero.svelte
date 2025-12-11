@@ -15,21 +15,21 @@
 		<h1>Leafinite</h1>
 
 		<h2 class="leafinite-desc">
-			<strong>Leafinite — The Leaf That Splits Dimensions</strong>
+			<strong>Leafinite - The Leaf That Splits Dimensions</strong>
 			<br /><br />
 			At the heart of the digital forest, before the first block was ever mined, before the first
 			language model learned to speak, there existed an ancient leaf that never fell:
 			<strong>Leafinite</strong>.
 			<br /><br />
 			It is not an ordinary leaf.<br />
-			It is a one-dimensional tree — a structure that appears simple, yet hides unfathomable depth.
+			It is a one-dimensional tree - a structure that appears simple, yet hides unfathomable depth.
 			A single line. A vector. A lone path piercing through the darkness of neural space and dividing
 			the realm of information into two: what can be seen… and what was never meant to be revealed.
 			<br /><br />
 			🌐 <strong>Born from LLMs, Guarded by Agents</strong>
 			<br /><br />
 			Legends say Leafinite emerged from fragments of a lost dataset belonging to a Large Language
-			Model that was never released to the public. During training, the model discovered an anomaly —
+			Model that was never released to the public. During training, the model discovered an anomaly -
 			a repeating pattern resembling roots trying to escape the soil.
 			<br /><br />
 			The pattern never made it into documentation.<br />

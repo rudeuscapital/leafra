@@ -36,7 +36,7 @@
 	</Social>
 
 	<!-- Pumpfun / Dexscreener -->
-	<Social tip="$Leafinite" link="">
+	<Social tip="$Leafinite" link="Btn2JhzT8UgHK3DaK5Ksa3ZCNEBmSFAVCcQzLD8apump">
 		<img src="/dexscreener.svg" alt="$Leafinite" class="icon icon-img" />
 	</Social>
 </div>
