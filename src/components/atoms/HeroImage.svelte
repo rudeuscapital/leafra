@@ -1,31 +1,7 @@
-<script lang="ts">
-	let zoom: boolean;
-	let xRotation: number;
-	let yRotation: number;
-
-	function enterRotate3D(e: MouseEvent) {
-		zoom = true;
-		let img = e.target as HTMLDivElement;
-		yRotation = 13 * ((e.offsetX - img.clientHeight / 2) / img.clientWidth);
-		xRotation = -13 * ((e.offsetY - img.clientWidth / 2) / img.clientHeight);
-	}
-
-	function leaveRotate3D() {
-		zoom = false;
-		yRotation = 0;
-		xRotation = 0;
-	}
-</script>
+<!-- src/components/atoms/HeroImage.svelte -->
 
 <div class="img-container">
-	<div
-		on:mousemove={enterRotate3D}
-		on:mouseleave={leaveRotate3D}
-		class="img"
-		role="img"
-		style:background-image="url(art/afn.webp)"
-		style:transform="perspective(500px) {zoom ? 'scale(1.05)' : ''} rotateX({xRotation}deg) rotateY({yRotation}deg)"
-	/>
+	<div class="img" role="img" aria-label="Leafra world tree illustration"></div>
 </div>
 
 <style lang="scss">
@@ -47,12 +23,15 @@
 		height: 400px;
 		z-index: 1;
 		display: block;
+		align-self: start;
 		transition:
 			width 0.4s var(--bezier-one),
 			transform 0.4s var(--bezier-one);
-		align-self: start;
-		background-color: var(--elevation-one);
-		background-size: cover;
+
+		/* PENTING: image transparan & ikut background */
+		background-color: transparent;
+		background-image: url('/art/afn.png'); /* file di static/art/afn.png */
+		background-size: contain;
 		background-position: center;
 		background-repeat: no-repeat;
 
