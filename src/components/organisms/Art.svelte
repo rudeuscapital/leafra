@@ -18,7 +18,7 @@
 	   TITLE "art" → HITAM
 	   ——————————————————————— */
 	h2 span {
-		color: #000000 !important;
+		color: #f1ebeb !important;
 	}
 
 	h2 {

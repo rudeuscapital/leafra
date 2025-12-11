@@ -38,7 +38,11 @@
 				</svg>
 			</Nav>
 
-			<Nav href="/leafra-terminal" section="leafra-terminal" isSelected={currentPath === '/leafra-terminal'}>
+			<Nav
+				href="/leafinite-architecture"
+				section="Leafinite architecture"
+				isSelected={currentPath === '/leafinite-architecture'}
+			>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 					<path fill="none" d="M0 0h24v24H0z" />
 					<path
@@ -97,7 +101,7 @@ nav {
 
 /* SCROLLED STATE – TANPA BLUR & TANPA GLOW */
 .scrolled {
-	background: #000000;          /* boleh diganti transparent kalau mau */
+	background: #000000;
 	backdrop-filter: none;
 }
 
@@ -111,7 +115,7 @@ nav {
 		width: auto;
 		border-radius: 12px;
 		padding: 0.75rem 1.25rem;
-		background: #000000;      /* kotak solid tanpa blur */
+		background: #000000;
 	}
 
 	nav button {
@@ -128,7 +132,7 @@ nav {
 
 	.nav-wrapper {
 		padding: 0.5rem 0;
-		background: #000000;      /* strip hitam flat */
+		background: #000000;
 		backdrop-filter: none;
 	}
 

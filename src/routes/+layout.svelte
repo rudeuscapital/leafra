@@ -63,7 +63,7 @@
 	" />
 	<meta name="twitter:image" itemprop="image" content="/default.png" />
 	<meta name="twitter:card" content="summary" />
-	<title>charlore</title>
+	<title>Leafrasync</title>
 </svelte:head>
 
 <svelte:window on:click={playSFX} />
