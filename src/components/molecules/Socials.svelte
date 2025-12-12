@@ -22,7 +22,7 @@
 	</Social>
 
 	<!-- Telegram -->
-	<Social tip="Telegram" link="https://t.me/leafinite/9">
+	<Social tip="Telegram" link="">
 		<svg
 			width="22"
 			height="22"
@@ -36,7 +36,7 @@
 	</Social>
 
 	<!-- Pumpfun / Dexscreener -->
-	<Social tip="$Leafinite" link="https://pump.fun/coin/Btn2JhzT8UgHK3DaK5Ksa3ZCNEBmSFAVCcQzLD8apump">
+	<Social tip="$Leafinite" link="">
 		<img src="/dexscreener.svg" alt="$Leafinite" class="icon icon-img" />
 	</Social>
 </div>
